@@ -1,0 +1,12 @@
+worked page
+
+
+
+<select  name="category" #selectLang
+  (change)="translateService.use(selectLang.value)" class="form-control">
+  <option *ngFor="let lang of translateService.getLangs()" [value]="lang"> {{ lang }} </option>  
+</select>
+
+{{ 'HOME.test' | translate }}
+
+<p><a href="#" style="text-decoration: none;" (click)="changeLanguage('punjabi')"> Punjabi </a></p>
