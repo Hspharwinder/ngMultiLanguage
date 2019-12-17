@@ -7,5 +7,6 @@
 5. app.component.ts
 6. app.component.html
 7. json files
+8. npm ci for installing package of lock.json file
 
 NOTE: this.translate.use(language); for changing language
